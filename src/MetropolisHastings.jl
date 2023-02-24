@@ -5,7 +5,7 @@ export metropolisHastings
 """
     metropolisHastings(f,N)
 
-Sample N points from a univariate probability distribution f.
+Sample N points from a univariate probability distribution proportional to f.
 
 f must have the signature f(x), where x is a number.
 """
@@ -31,7 +31,7 @@ end
 """
     metropolisHastings(f,N,d)
 
-Sample N points from a multivariate probability distribution f.
+Sample N points from a multivariate probability distribution proportional to f.
 
 f must have the signature f(x) where x in a vector of size d.
 """
