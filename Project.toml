@@ -2,3 +2,6 @@ name = "MetropolisHastings"
 uuid = "a9fce899-2dbb-4e00-a423-a666bdad8e5d"
 authors = ["Marcos Gil <marcosgildeoliveira@gmail.com>"]
 version = "0.1.0"
+
+[compat]
+julia = "1.6"
